@@ -1,0 +1,15 @@
+{
+  "name": "ionic_better_structure",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "inject",
+    "watch"
+  ],
+  "documentRoot": "src",
+  "watchPatterns": [
+    "src/**/*",
+    "src/.tmp/**/*"
+  ],
+  "integrations": {},
+  "type": "ionic1"
+}
