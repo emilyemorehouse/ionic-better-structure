@@ -8,6 +8,11 @@ $ cd mkdir myApp
 $ git clone https://github.com/flavordaaave/ionic_better_structure.git
 ```
 
+This application is configured to use Ionic CLI v2, which can be installed using:
+```
+npm install -g ionic@legacy
+```
+
 Then run npm and bower to get all needed dependencies:
 
 ```bash
@@ -145,4 +150,4 @@ A bunch of useful gulp tasks have been copied from the [HotTowel yeoman generato
 
     Copies the ionic fonts, copies images and runs `gulp optimize` to build the production code to the build folder.
 
-**NOTE:** This project contains a before_build hook for cordova which so that the gulp build task is run automatically when building with `cordova build [platfrom]` or `ionic build [platfrom]`
+**NOTE:** This project contains a before_build hook for cordova which so that the gulp build task is run automatically when building with `cordova build [platform]` or `ionic build [platform]`

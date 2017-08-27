@@ -19,6 +19,14 @@ gulp.task('help', $.taskListing);
 gulp.task('default', ['help']);
 
 /**
+ * Ionic hooks
+ */
+gulp.task('serve:before', ['watch', 'inject', 'vet']);
+gulp.task('emulate:before', ['build']);
+gulp.task('deploy:before', ['build']);
+gulp.task('build:before', ['build']);
+
+/**
  * vet the code and create coverage report
  * @return {Stream}
  */
